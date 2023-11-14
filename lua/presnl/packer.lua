@@ -18,6 +18,8 @@ return require('packer').startup(function(use)
 
   use('tpope/vim-fugitive')
 
+  use('unblevable/quick-scope')
+
   use({
       "iamcco/markdown-preview.nvim",
       run = function() vim.fn["mkdp#util#install"]() end,
